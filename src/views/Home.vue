@@ -1,4 +1,6 @@
 <template>
+  <Chips />
+  <div class="separador"></div>
   <AlertasView />
   <div class="separador"></div>
   <Botoes />
@@ -17,6 +19,7 @@ import Botoes from '@/components/Botoes.vue';
 import Breadcrumbs from '@/components/Breadcrumbs.vue';
 import Cardes from '@/components/Cardes.vue';
 import Icones from '@/components/Icones.vue';
+import Chips from '@/components/Chips.vue';
 
 </script>
 <style>
