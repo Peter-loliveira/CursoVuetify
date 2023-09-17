@@ -7,12 +7,11 @@
     size="large" 
     closable>
     <v-icon start icon="mdi-email"></v-icon>
-    {{ item.nome }} {{ item.indexof }} {{ item.valor }}
+    {{ item.nome }} {{ item.valor }}
   </v-chip>
 </template>
 <script setup>
 import { ref } from 'vue';
-
     const lista = ref([
         {nome:'Peter', cor:'blue', valor:0},
         {nome:'Maria', cor:'red', valor:15},

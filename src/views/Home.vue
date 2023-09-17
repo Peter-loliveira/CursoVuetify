@@ -1,4 +1,6 @@
 <template>
+  <Tableas />
+  <div class="separador"></div>
   <Chips />
   <div class="separador"></div>
   <AlertasView />
@@ -20,6 +22,7 @@ import Breadcrumbs from '@/components/Breadcrumbs.vue';
 import Cardes from '@/components/Cardes.vue';
 import Icones from '@/components/Icones.vue';
 import Chips from '@/components/Chips.vue';
+import Tableas from '@/components/Tableas.vue';
 
 </script>
 <style>
