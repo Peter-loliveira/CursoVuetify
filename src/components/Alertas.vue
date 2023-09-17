@@ -1,5 +1,6 @@
 <template>
   <h1 class="textoCentralizado">Alertas: Exibindo? {{ exibindoAlerta }}</h1>
+  <v-btn color="info" @click="exibirAlerta()">Exibir | Oculta Alerta</v-btn>
   <v-alert
     v-if="exibindoAlerta"
     color="error"
@@ -8,7 +9,6 @@
     text="Texto de Alerta"
     icon="mdi-home"
   ></v-alert>
-  <v-btn color="info" @click="exibirAlerta()">Exibir | Oculta Alerta</v-btn>
 </template>
 <script setup>
 import { ref } from 'vue';
