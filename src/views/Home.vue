@@ -1,4 +1,6 @@
 <template>
+  <Listas />
+  <div class="separador"></div>
   <Tabelas />
   <div class="separador"></div>
   <Chips />
@@ -23,6 +25,7 @@ import Cardes from '@/components/Cardes.vue';
 import Icones from '@/components/Icones.vue';
 import Chips from '@/components/Chips.vue';
 import Tabelas from '@/components/Tabelas.vue';
+import Listas from '@/components/Listas.vue';
 
 </script>
 <style>
