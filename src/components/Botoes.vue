@@ -30,12 +30,10 @@
 <script setup>
 import { ref } from "vue";
 const valor = ref(0);
-function subtrair() {
-  valor.value--;
-}
-function somar() {
-  valor.value++;
-}
+
+const subtrair = () =>valor.value--
+const  somar =() => valor.value++
+
 </script>
 
 <style>

@@ -1,5 +1,8 @@
 <template>
   <h1>Tabelas:</h1>
+  <div class="bordaTabela">
+
+  
   <v-table theme="light" density="compact" height="200px">
     <thead>
       <tr>
@@ -34,6 +37,7 @@
       </tr>
     </tbody>
   </v-table>
+</div>
   <br />
   <div display="inline">
     <v-text-field label="Nome"></v-text-field>
@@ -44,15 +48,10 @@
 <script setup>
 import { ref } from "vue";
 
-function alert_() {
-  alert("TESTE DE ALERTA");
-}
-function save_() {
-  alert("TESTE DE Salvamento");
-}
-function edit_() {
-  alert("TESTE DE Edição");
-}
+const alert_ = () => alert("TESTE DE ALERTA!");
+const  save_ =() =>  alert("TESTE DE Salvamento!");
+const  edit_ = () => alert("TESTE DE Edição!");
+
 
 const listaContatos = ref([
   { nome: "Peter", email: "peter@email" },
@@ -79,5 +78,9 @@ function addContact() {
   width: 150px;
   display: flex;
   justify-content: space-between;
+}
+.bordaTabela {
+  border: 1px solid black !important;
+  width: 60%;
 }
 </style>

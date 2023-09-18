@@ -13,8 +13,6 @@
 <script setup>
 import { ref } from 'vue';
     const exibindoAlerta = ref(true)
-    function exibirAlerta(){
-        exibindoAlerta.value = !exibindoAlerta.value
-    }
+    const exibirAlerta =() => exibindoAlerta.value = !exibindoAlerta.value
 </script>
 <style></style>
