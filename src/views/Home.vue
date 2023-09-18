@@ -1,4 +1,6 @@
 <template>
+  <Layouts />
+  <div class="separador"></div>
   <Listas />
   <div class="separador"></div>
   <Tabelas />
@@ -26,6 +28,7 @@ import Icones from '@/components/Icones.vue';
 import Chips from '@/components/Chips.vue';
 import Tabelas from '@/components/Tabelas.vue';
 import Listas from '@/components/Listas.vue';
+import Layouts from '@/components/Layouts.vue';
 
 </script>
 <style>
