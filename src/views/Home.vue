@@ -1,4 +1,6 @@
 <template>
+  <Grids />
+  <div class="separador"></div>
   <Layouts />
   <div class="separador"></div>
   <Listas />
@@ -29,6 +31,7 @@ import Chips from '@/components/Chips.vue';
 import Tabelas from '@/components/Tabelas.vue';
 import Listas from '@/components/Listas.vue';
 import Layouts from '@/components/Layouts.vue';
+import Grids from '@/components/Grids.vue';
 
 </script>
 <style>
