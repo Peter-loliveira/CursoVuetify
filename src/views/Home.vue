@@ -1,4 +1,6 @@
 <template>
+  <Formularios />
+  <div class="separador"></div>
   <Grids />
   <div class="separador"></div>
   <Layouts />
@@ -32,6 +34,7 @@ import Tabelas from '@/components/Tabelas.vue';
 import Listas from '@/components/Listas.vue';
 import Layouts from '@/components/Layouts.vue';
 import Grids from '@/components/Grids.vue';
+import Formularios from '@/components/Formularios.vue';
 
 </script>
 <style>

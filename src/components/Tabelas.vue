@@ -39,11 +39,18 @@
   </v-table>
 </div>
   <br />
-  <div display="inline">
-    <v-text-field label="Nome"></v-text-field>
-    <v-text-field label="E-mail"></v-text-field>
-  </div>
-  <v-btn @click="addContact()" color="info">Adcionar</v-btn>
+  <v-row>
+    <v-col>
+      <v-text-field label="Nome"></v-text-field>
+    </v-col>
+    <v-col>
+      <v-text-field label="E-mail"></v-text-field>
+    </v-col>
+    <v-col>
+      <v-btn @click="addContact()" color="info">Adcionar</v-btn>
+    </v-col>
+  </v-row>
+  
 </template>
 <script setup>
 import { ref } from "vue";
