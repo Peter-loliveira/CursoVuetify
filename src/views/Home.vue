@@ -1,4 +1,6 @@
 <template>
+  <CaixasDeSelecao />
+  <div class="separador"></div>
   <Formularios />
   <div class="separador"></div>
   <Grids />
@@ -35,6 +37,7 @@ import Listas from '@/components/Listas.vue';
 import Layouts from '@/components/Layouts.vue';
 import Grids from '@/components/Grids.vue';
 import Formularios from '@/components/Formularios.vue';
+import CaixasDeSelecao from '@/components/CaixasDeSelecao.vue';
 
 </script>
 <style>
