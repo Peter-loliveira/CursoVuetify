@@ -1,9 +1,20 @@
 <template>
     <h1>CheckBoxes:</h1>
     <v-checkbox v-for="item in lista" :label='item.cor' :value='item.cor' :color="item.codigo" v-model="selectedColors"></v-checkbox>
-    <v-text-field v-model = 'selectedColors' >
+    <v-text-field v-model = 'selectedColors' class="metade">
         <!-- <h3>{{ selectedColors }}</h3> -->
     </v-text-field>
+    <br>
+    
+    <v-combobox class="metade" label="Escolha um pais - Um de Cada Vez" 
+    :items="['Brasil', 'Uruguai', 'Argentina', 'Alemanha']" >
+    </v-combobox>
+    
+    <v-combobox class="metade" label="Escolha um pais - Vários ao mesmo tempo" 
+    :items='listaPaises' multiple>
+    </v-combobox>
+
+    
 </template>
 <script setup>
 import { ref } from 'vue';
@@ -15,7 +26,14 @@ import { ref } from 'vue';
         {cor:'Amarelo', codigo:'yellow'},
         {cor:'Rosa', codigo:'pink'},
     ])
-
+    
     const selectedColors = ref([])
+    
+    const listaPaises = ref(['Brasil', 'Uruguai', 'Argentina', 'Alemanha'])
+    
 </script>
-<style></style>
+<style>
+    .metade{
+        width: 50%;
+    }
+</style>
