@@ -1,4 +1,6 @@
 <template>
+  <Sliders />
+  <div class="separador"></div>
   <CaixasDeSelecao />
   <div class="separador"></div>
   <Formularios />
@@ -38,6 +40,7 @@ import Layouts from '@/components/Layouts.vue';
 import Grids from '@/components/Grids.vue';
 import Formularios from '@/components/Formularios.vue';
 import CaixasDeSelecao from '@/components/CaixasDeSelecao.vue';
+import Sliders from '@/components/Sliders.vue';
 
 </script>
 <style>
@@ -45,5 +48,8 @@ import CaixasDeSelecao from '@/components/CaixasDeSelecao.vue';
   margin: 5px 0;
   height: 2px;
   background-color: #555;
+}
+.metade {
+  width: 50%;
 }
 </style>
