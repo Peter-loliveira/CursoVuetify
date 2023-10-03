@@ -1,4 +1,7 @@
 <template>
+
+  <CaixaDeTexto />
+  <div class="separador"></div>
   <Sliders />
   <div class="separador"></div>
   <CaixasDeSelecao />
@@ -41,6 +44,7 @@ import Grids from '@/components/Grids.vue';
 import Formularios from '@/components/Formularios.vue';
 import CaixasDeSelecao from '@/components/CaixasDeSelecao.vue';
 import Sliders from '@/components/Sliders.vue';
+import CaixaDeTexto from '@/components/CaixaDeTexto.vue';
 
 </script>
 <style>
@@ -51,5 +55,6 @@ import Sliders from '@/components/Sliders.vue';
 }
 .metade {
   width: 50%;
+  margin-left: 20px;
 }
 </style>
