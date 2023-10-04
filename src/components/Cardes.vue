@@ -39,12 +39,12 @@
       Aqui temos a possivilidade com uma TAG de colocar botões para realizar
       ações
     </v-card-text>
-    <v-car-actions class="central">
-      <v-btn color="success">Ação</v-btn>
+    <v-card-actions class="central">
+      <v-btn color="success" elevated>Ação</v-btn>
       <v-btn color="warning">Cuidado</v-btn>
       <v-btn color="error">Apagar</v-btn>
       <v-btn color="pink">Apagar</v-btn>
-    </v-car-actions>
+    </v-card-actions>
   </v-card>
 </template>
 <script setup></script>

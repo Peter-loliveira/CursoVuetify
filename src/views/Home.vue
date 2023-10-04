@@ -1,12 +1,14 @@
 <template>
+  <FormulariosAvancado />
+  <div class="separador"></div>
+  <Formularios />
+  <div class="separador"></div>
 
   <CaixaDeTexto />
   <div class="separador"></div>
   <Sliders />
   <div class="separador"></div>
   <CaixasDeSelecao />
-  <div class="separador"></div>
-  <Formularios />
   <div class="separador"></div>
   <Grids />
   <div class="separador"></div>
@@ -45,6 +47,7 @@ import Formularios from '@/components/Formularios.vue';
 import CaixasDeSelecao from '@/components/CaixasDeSelecao.vue';
 import Sliders from '@/components/Sliders.vue';
 import CaixaDeTexto from '@/components/CaixaDeTexto.vue';
+import FormulariosAvancado from '@/components/FormulariosAvancado.vue';
 
 </script>
 <style>
